@@ -5,8 +5,7 @@
     padding: 0;
     --primary-color: #343434;
     --secondary-color: #40394a;
-    --thrid-color: rgb(100, 228, 149)
-
+    --thrid-color: rgb(100, 228, 149);
 }
 
 body{
@@ -15,41 +14,45 @@ body{
 
 .navigation {
     position: sticky;
-    top: 0;
+    top: 10;
+    height: 60px;
+    width: 100%;
     background-color: var(--secondary-color);
     color: var(--thrid-color);
-    padding: 10px;
     border-bottom-left-radius: 1rem;
-    
+    display: flex;
 }
 .navigation .nav-brand {
-    font-weight: bold;
     font-size: 18px;
-    margin: 5px;
 }
 
 .navigation .nav-pills {
     display: flex;
-    text-align: right;
+    text-align: center;
+    top: 10px;
+    right: 0;
+    color: rgb(100, 228, 149);
+    padding-top: 20px;
+    
 }
 
 .list-non-bullet {
     list-style: none;
-    padding-inline-start: 0px;
+    /* `padding-inline-start: 0px; */
 }
 
 .link {
+    padding-top: 20px;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .navigation .link {
-    color: rgb(247, 247, 112);
+    color: rgb(100, 228, 149);;
 }
 .list-item-inilne {
     display:inline;
-    padding: 0rem 0.5rem;
-
+  
 }
 
 .mr-intermediate-heading {
@@ -146,7 +149,7 @@ h1 {
 .mr-fourth-right{
     float: left;
     width: 50%;
-    padding: 0;
+    /* padding-left: 2px; */
 } 
 
 .mr-display-fourth-row::after{
@@ -165,7 +168,7 @@ h1 {
     height: 250px;
     width: 400px;
     margin: 10px;
-    padding: 10px 0;
+    padding: 10px ;
 }
 
 .mr-card-img-wrap-allveg img,
@@ -174,7 +177,7 @@ h1 {
     height: 400px;
     width: 600px;
     margin: 10px ;
-    padding: 10px 0;
+    padding: 10px ;
     
 }
 
@@ -182,12 +185,12 @@ h1 {
 .mr-card-img-wrap-green-salad img {
     height: 500px;
     width: 600px;
-    margin: 10px 0;
-    padding: 10px 0;
+    margin: 10px ;
+    padding: 10px ;
 }
 
 .mr-card-img-wrap-basket {
-    margin: 0 100px;
+    margin: 0 120px;
     padding: 10px;
 }
 .mr-card-title-main {
@@ -200,8 +203,8 @@ li{
     list-style: none;
 }
 
-h4 {
-    color: #343434;
+h3, h4 {
+    color: #343f56;
 }
 
 .mr-footer-heading {
@@ -235,6 +238,54 @@ h4 {
     padding: 10px 0;
 }
 
+.mr-footer-first-col{
+    margin: 20px ;
+    /* max-width: 300px; */
+    width: 100%;
+    display: flex;
+
+}
+
+.mr-footer-second-col {
+    margin: 20px;
+    /* max-width: 300px; */
+    width: 100%;
+    display: flex;
+}
+
+.mr-footer-cont-first-col{
+    margin: 20px;
+    /* max-width: 300px; */
+    width: 100%;
+    display: flex;
+}
+
+.mr-footer-cont-second-col{
+    margin: 20px;
+    /* max-width: 300px; */
+    width: 100%;
+    display: flex;
+}
+/* .mr-footer-cont-second-col > div {
+    text-align:center;
+} */
+.mr-left-col {
+    display: flex;
+    width: 50%;
+    /* order: 1; */
+}
+
+.mr-right-col {
+    display: flex;
+    width: 50%;
+}
+
+.mr-footer-up-wrap{
+    display: flex;
+    width: 100%;
+}
+/* 
+
 .mr-footer-up-left-list{
     float: left;
     width: 50%;
@@ -266,4 +317,4 @@ h4 {
     font-size: 16px;
     color: #343434;
     font-weight: bold;
-}
+} */
