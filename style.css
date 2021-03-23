@@ -38,7 +38,6 @@ body{
 
 .list-non-bullet {
     list-style: none;
-    /* `padding-inline-start: 0px; */
 }
 
 .link {
@@ -69,13 +68,13 @@ h1 {
     width: 100%;
     font-size: 36px;
     text-align: center;
-    color: rgb(5, 124, 5);
+    color: #343f56;
 }
 
 .mr-intermediate-heading-text-wrap {
     padding: 15px;
     margin: 10px;
-    font-size: 26px;
+    font-size: 16px;
     letter-spacing: 0.2px;
     margin: 0 auto;
     color: #343f56;
@@ -113,7 +112,7 @@ h1 {
 .mr-first-right{
     float: left;
     width: 30%;
-    padding: 7px;
+    padding: 10px 7px 0 7px;
     margin: 7px;
 } 
 
@@ -126,7 +125,7 @@ h1 {
 .mr-second-right{
     float: left;
     width: 30%;
-    padding: 7px;
+    padding:0 7px;
     margin: 7px;
 } 
 
@@ -208,13 +207,13 @@ li{
 }
 
 h3, h4 {
-    color: #343f56;
+    color: rgb(100, 228, 149);
 }
 
 .mr-footer-heading {
     font-size: 16px;
     font-weight: bold;
-    color: #343f56;
+    color: rgb(100, 228, 149);
     padding: 5px 0;
     letter-spacing: 1px;
     line-height: 16px;
@@ -231,8 +230,8 @@ h3, h4 {
     float: left;
     width: 100%;
     position: relative;
-    margin: 40px;
-    padding: 10px 0;
+    margin: 30px;
+    padding: 0;
 }
 
 .mr-left-col::after{
@@ -244,7 +243,6 @@ h3, h4 {
 
 .mr-footer-first-col{
     margin: 20px ;
-    /* max-width: 300px; */
     width: 100%;
     display: flex;
 
@@ -252,31 +250,25 @@ h3, h4 {
 
 .mr-footer-second-col {
     margin: 20px;
-    /* max-width: 300px; */
     width: 100%;
     display: flex;
 }
 
 .mr-footer-cont-first-col{
     margin: 20px;
-    /* max-width: 300px; */
     width: 100%;
     display: flex;
 }
 
 .mr-footer-cont-second-col{
     margin: 20px;
-    /* max-width: 300px; */
     width: 100%;
     display: flex;
 }
-/* .mr-footer-cont-second-col > div {
-    text-align:center;
-} */
+
 .mr-left-col {
     display: flex;
     width: 50%;
-    /* order: 1; */
 }
 
 .mr-right-col {
@@ -288,37 +280,18 @@ h3, h4 {
     display: flex;
     width: 100%;
 }
-/* 
 
-.mr-footer-up-left-list{
-    float: left;
-    width: 50%;
-    padding: 0;
-    position: relative;
-} 
+.mr-footer-container {
+    background-color: var(--secondary-color);
+    display: block;
+    padding-bottom: 0px;
+    text-align: left;
+    color: rgb(100, 228, 149);
+    border-top-right-radius: 1rem;
+}
 
-.mr-footer-right-col::after {
-    content: "";
-    clear: both;
-    display: table;
-    
-}
-.mr-footer-contact-list {
-    float: right;
-    width: 50%;
-    padding: 0;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    
-}
-.mr-ftreachus a {
+.mr-copyright{
+    line-height: 2.5rem;
     font-size: 16px;
-    color: #343434;   
-    font-weight: bold;
+    text-align: center;
 }
-.mr-social-list {
-    font-size: 16px;
-    color: #343434;
-    font-weight: bold;
-} */
